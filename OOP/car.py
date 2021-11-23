@@ -22,7 +22,9 @@ class Car():
     def get_speed(self):
         return self._speed
 
-toyota_aygo = Car(96)
+# when imported into other modules, the below code won't be executed. It will be executed if this file is ran
+if __name__ == '__main__':
+    toyota_aygo = Car(96)
 
-toyota_aygo.accelerate(10)
-print(toyota_aygo._speed)
+    toyota_aygo.accelerate(10)
+    print(toyota_aygo._speed)
