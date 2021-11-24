@@ -125,7 +125,7 @@ print("\nQ3b\n")
 # A3b:
 # -------------------------------------------------------------------------------------- #
 def prime_checker2(number):
-    if number not in [int]:
+    if type(number) not in [int]:
         print("Number is not a integer")
         return
     for i in range(2, number):
@@ -133,9 +133,11 @@ def prime_checker2(number):
             return False
     return True
 
-print(prime_checker(5))
-print(prime_checker(5))
-print(prime_checker(12))
+print(prime_checker2(5))
+print(prime_checker2(5))
+print(prime_checker2(12))
+print(prime_checker2('x'))
+print(prime_checker2(True))
 
-print("\nQ3b\n")
+
 
