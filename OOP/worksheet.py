@@ -43,7 +43,6 @@ class Number:
         else:
             return False
 # A2a:
-print("\nQ2b\n")
 prime_list = []
 for i in (list_of_numbers):
     #print(i)
@@ -52,6 +51,7 @@ for i in (list_of_numbers):
         prime_list.append(i)
 print(prime_list)
 
+print("\nQ2b\n")
 # Q2b: Now create a list of numbers from list_of_numbers that are divisible
 # by both 3 and 4 using the divisible_by_n method above
 

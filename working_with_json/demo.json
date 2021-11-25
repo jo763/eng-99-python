@@ -1,0 +1,11 @@
+{
+  "Name": "Value",
+  "Numbers": 123,
+  "Other Numbers": 3.14,
+  "Arrays": [1, 2, 3],
+  "Booleans": true,
+  "Nulls": null,
+  "Objects": {
+    "key": "Value"
+  }
+}

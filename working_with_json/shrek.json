@@ -1,0 +1,9 @@
+{"name": "Firefly",
+  "seasons": 1,
+  "film_sequel": true,
+  "production_company": "Fox",
+  "ratings": {
+    "IMDB": 0.89,
+    "Rotten Tomatoes": 0.94
+  }
+}
